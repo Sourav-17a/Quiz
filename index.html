@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Master</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- App name: always visible on top -->
+  <h1 class="appName">Quiz Master</h1>
+
+  <div class="box">
+
+    <!-- Part 1: Home screen (choose subject) -->
+    <div id="startBox">
+      <p>Choose a subject to start</p>
+      <button onclick="startQuiz('maths')">Maths</button>
+      <button onclick="startQuiz('science')">Science</button>
+      <button onclick="startQuiz('computer')">Computer</button>
+      <button onclick="startQuiz('gk')">GK</button>
+    </div>
+
+    <!-- Part 2: Question screen -->
+    <div id="quizBox">
+      <h2 id="subjectName"></h2>
+      <p id="qNumber"></p>
+      <h3 id="question"></h3>
+
+      <button id="op0" onclick="selectOption(0)"></button>
+      <button id="op1" onclick="selectOption(1)"></button>
+      <button id="op2" onclick="selectOption(2)"></button>
+      <button id="op3" onclick="selectOption(3)"></button>
+
+      <button id="confirmBtn" onclick="checkAnswer()">Confirm</button>
+      <button id="nextBtn" onclick="nextQuestion()">Next</button>
+      <button id="exitBtn" onclick="exitQuiz()">Exit Quiz</button>
+    </div>
+
+    <!-- Part 3: Result screen -->
+    <div id="resultBox">
+      <h2>Quiz Finished!</h2>
+      <h2 id="score"></h2>
+      <button onclick="goHome()">Play Again</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

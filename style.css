@@ -1,0 +1,81 @@
+body {
+  background-color: lightblue;
+  font-family: Arial;
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.appName {
+  color: darkblue;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+/* the option the user has selected */
+.selected {
+  background-color: yellow;
+  border: 2px solid orange;
+}
+
+/* Confirm button: normal color */
+#confirmBtn {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Confirm button: dull color until an option is selected */
+#confirmBtn:disabled {
+  background-color: #dddddd;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+/* hide quiz and result screens at the start */
+#quizBox {
+  display: none;
+}
+
+#resultBox {
+  display: none;
+}
+
+#nextBtn {
+  display: none;
+  background-color: orange;
+}
+
+#exitBtn {
+  background-color: salmon;
+}
+
+/* colors for right and wrong answers */
+.correct {
+  background-color: lightgreen;
+}
+
+.wrong {
+  background-color: salmon;
+}
