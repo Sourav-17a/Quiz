@@ -1,6 +1,6 @@
 // ---------- QUESTIONS ----------
-// q = question, options = 4 choices, answer = number of correct option (0 = first, 1 = second ...)
 
+//Math Question
 var maths = [
   { q: "15 + 27 = ?", options: ["32", "42", "52", "41"], answer: 1 },
   { q: "9 x 8 = ?", options: ["72", "64", "81", "78"], answer: 0 },
@@ -23,7 +23,7 @@ var maths = [
   { q: "3/4 as a decimal?", options: ["0.34", "0.50", "0.75", "0.25"], answer: 2 },
   { q: "A right angle is how many degrees?", options: ["45", "90", "180", "60"], answer: 1 }
 ];
-
+//Science Question
 var science = [
   { q: "Which gas do we breathe in?", options: ["Oxygen", "Nitrogen", "Helium", "Hydrogen"], answer: 0 },
   { q: "Chemical formula of water?", options: ["CO2", "O2", "H2O", "NaCl"], answer: 2 },
@@ -46,7 +46,7 @@ var science = [
   { q: "Unit of electric current?", options: ["Volt", "Ohm", "Ampere", "Watt"], answer: 2 },
   { q: "Earth's natural satellite?", options: ["Sun", "Mars", "Star", "Moon"], answer: 3 }
 ];
-
+//Computer Question
 var computer = [
   { q: "HTML stands for?", options: ["HyperText Markup Language", "High Text Machine Language", "Home Tool Markup Language", "Hyper Tool Make Language"], answer: 0 },
   { q: "CSS is used for?", options: ["Database", "Styling web pages", "Making games", "Internet speed"], answer: 1 },
@@ -69,7 +69,7 @@ var computer = [
   { q: "Binary language uses which digits?", options: ["1 and 2", "0 to 9", "0 and 1", "A and B"], answer: 2 },
   { q: "Tag used to show an image?", options: ["<pic>", "<image>", "<photo>", "<img>"], answer: 3 }
 ];
-
+//GK Question
 var gk = [
   { q: "Capital of India?", options: ["Mumbai", "New Delhi", "Kolkata", "Chennai"], answer: 1 },
   { q: "National animal of India?", options: ["Lion", "Elephant", "Tiger", "Leopard"], answer: 2 },
